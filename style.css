@@ -1,0 +1,30 @@
+body {
+  color: green;
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  Background-image: linear-gradient (red, yellow, blue);
+}
+main {
+  max-width: 600px;
+  margin-left: 20px;
+  /*pushes the edge of the site over*/
+  /* margin: auto; makes it center the whole page */
+
+  a {
+    color: green;
+    text-decoration: none;
+  /* Gets rid of underline under "Go to the zoo"*/
+  }
+
+a:hover {
+  background-color: green;
+  color: black;
+}
+h1 {
+  font-weight: normal;
+  border-bottom: 3px dashed green;
+  /* doesnt work?*/
+}
+img {
+  width: 100%;
+}
